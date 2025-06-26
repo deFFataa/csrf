@@ -26,6 +26,8 @@
         margin: 0px;
       }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/index.js"></script>
   </head>
   <body>
     <main class="container border my-2 position-relative">
@@ -36,10 +38,10 @@
         >
           <div class="d-flex mb-2" style="gap: 10px">
             <picture>
-                <img src="/logos/dost.png" width="70" alt="dost">
+              <img src="/logos/dost.png" width="70" alt="dost" />
             </picture>
             <picture>
-                <img src="/logos/nrcp.png" width="70" alt="dost">
+              <img src="/logos/nrcp.png" width="70" alt="dost" />
             </picture>
           </div>
           <div>
@@ -120,7 +122,9 @@
           <div class="row mt-3">
             <div class="col-6 d-flex align-items-end" style="gap: 10px">
               <label for="region" class="">Region of residence </label>
-              <input id="region" type="text" class="form-control ms-2 w-50" />
+              <select id="region" class="form-control ms-2 w-50">
+                <option value="">Select region</option>
+              </select>
             </div>
             <div class="col-6 d-flex align-items-end" style="gap: 10px">
               <label for="residence" class="">Service Availed </label>
@@ -482,10 +486,10 @@
           <button class="btn btn-primary btn-block">Submit</button>
         </div>
       </form>
-      <div class="position-absolute" style="top: 10px; right: 10px;">
+      <div class="position-absolute" style="top: 10px; right: 10px">
         <div style="border: solid 3px" class="p-2">
-            <div>NRCP F2-External</div>
-            <div>Rev.2/06-02-25</div>
+          <div>NRCP F2-External</div>
+          <div>Rev.2/06-02-25</div>
         </div>
       </div>
     </main>
