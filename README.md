@@ -1,4 +1,4 @@
 Instructions
-
+Open command line and run
 ```bash
-https://github.com/deFFataa/csrf.git
+git clone https://github.com/deFFataa/csrf.git
